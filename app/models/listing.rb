@@ -1,6 +1,11 @@
 class Listing < ActiveRecord::Base
-  has_attached_file :image, :styles => { :medium => "200x", :thumb => "100x100>" }, :default_url => "noimage.jpeg",
-  	:storage => :dropbox,
-    :dropbox_credentials => Rails.root.join("config/dropbox.yml")
-    validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
+  	if Rails.env.development?
+  		has_attached_file :image, :styles => { :medium => "200x", :thumb => "100x100>" }, :default_url => "noimage.jpeg"
+  		validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
+	else
+	  	has_attached_file 	:image, :styles => { :medium => "200x", :thumb => "100x100>" }, :default_url => "noimage.jpeg",
+	  						:storage => :dropbox,
+	    					:dropbox_credentials => Rails.root.join("config/dropbox.yml")
+	    validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
+	end
 end
