@@ -1,9 +1,9 @@
 @import "bootstrap";
 
 body {
-	background-color: #E1E3E4;
+	background-color: #DCDDDF;
 	color: #333333;
-	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 .navbar-default {
@@ -11,14 +11,14 @@ body {
 }
 
 .navbar-default .navbar-brand {
-	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif, "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-weight: 400;
 	color: #414141;
 	font-size: 30px;
 }
 
 .navbar-default .navbar-nav > li > a {
-	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif, "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 14;
 	font-weight: bold;
 	color: #414141;
@@ -52,11 +52,12 @@ body {
 .jumbotron {
 	
 	h1, h2 {
-		font-family: Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-family: 'Open Sans Condensed', sans-serif, Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	}
 }
 
 .footer {
 	text-align: center;
+	letter-spacing: -3px;
 }
 
