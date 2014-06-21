@@ -4,3 +4,9 @@ A demonstration marketplace application using rails.
 
 Currently sitting here: http://chadduffey-demo.herokuapp.com/ 
 
+<<<<<<< HEAD
+=======
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
+>>>>>>> 19ab16e8e9ae9327c1ec40fe76051e28630731f4
