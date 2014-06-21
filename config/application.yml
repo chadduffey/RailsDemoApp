@@ -1,0 +1,5 @@
+# Add application configuration variables here, as shown below.
+APP_SECRET: "n2vm3jftqbodgqa"
+ACCESS_TOKEN_SECRET: "vo5123bd28uc71h"
+STRIPE_API_KEY: "sk_test_duw3fHrLcnfTEbI3snIW9vKA"
+STRIPE_PUBLIC_KEY: "pk_test_YTI41fdnWWC0geVkZQHZy0pE"

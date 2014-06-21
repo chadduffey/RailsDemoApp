@@ -1,0 +1,63 @@
+@import "bootstrap";
+
+body {
+	background-color: #DCDDDF;
+	color: #333333;
+	font-family: 'Open Sans Condensed', sans-serif "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.navbar-default {
+	background-color: #F4F4F4;
+}
+
+.navbar-default .navbar-brand {
+	font-family: 'Open Sans Condensed', sans-serif, "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-weight: 400;
+	color: #414141;
+	font-size: 30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-family: 'Open Sans Condensed', sans-serif, "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 14;
+	font-weight: bold;
+	color: #414141;
+}
+
+.center {
+	text-align: center;
+}
+
+.col-md-3:nth-child(4n+1) {
+	clear: left;
+}
+
+.col-md-6 { 
+	h3  {font-size: 45px;}
+	h5 	{font-size: 25px;}
+	p 	{font-size: 18px;}
+}
+
+.caption {
+	h3 {
+		font-size: 17px; 
+		margin: 2px;
+	}
+	p {
+		font-size: 15px;
+		margin: 0px;
+	}
+}
+
+.jumbotron {
+	
+	h1, h2 {
+		font-family: 'Open Sans Condensed', sans-serif, Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	}
+}
+
+.footer {
+	text-align: center;
+	letter-spacing: -3px;
+}
+

@@ -1,0 +1,6 @@
+== README
+
+A demonstration marketplace application using rails.
+
+Currently sitting here: http://chadduffey-demo.herokuapp.com/ 
+
