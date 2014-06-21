@@ -2,11 +2,8 @@
 
 A demonstration marketplace application using rails.
 
+It currently accepts credit cards, however the back end is in test mode. The credit cards are processed using stripe.com.
+
+I have commented out the bank account section. It should take bank accounts from sellers as part of the new user setup. However, i found some issues with international accounts and want to fix this first.
+
 Currently sitting here: http://chadduffey-demo.herokuapp.com/ 
-
-<<<<<<< HEAD
-=======
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
->>>>>>> 19ab16e8e9ae9327c1ec40fe76051e28630731f4
